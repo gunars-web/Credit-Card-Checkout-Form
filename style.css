@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgrey;
+  font-family: "Roboto Mono", monospace;
+}
+
+form {
+  width: 550px;
+  margin: 100px auto 0 auto; /*center the module*/
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 red, 0 4px 8px 0 yellowgreen;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box1 {
+  width: 100%;
+  padding: 10px;
+  border: none; 
+  border-radius: 15px;
+  box-sizing: border-box; /*to fit within box*/
+  margin: 10px 0 15px 0;
+  background-color: yellowgreen
+}
+
+.card-details {
+  display: inline-block;
+}
+
+label {
+  font-size: 12px;
+}
+
+.box2 {
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  margin: 10px 0 15px 0;
+  background-color: yellowgreen;
+}
+
+.btn {
+  width: 45%;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: yellowgreen;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+  form {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .card-details{
+    display: block;
+  }
+
+  .box2 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
